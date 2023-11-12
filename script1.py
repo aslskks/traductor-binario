@@ -17,4 +17,11 @@ def main():
     print("El texto es:", resultado)
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        import sys
+        sys.exit()
+    except Exception as e:
+        from tkinter import messagebox
+        messagebox.showerror(title="binario a texto", message=f"{e}")

@@ -8,4 +8,11 @@ def main():
     print("El texto en binario es:", resultado)
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        import sys
+        sys.exit()
+    except Exception as e:
+        from tkinter import messagebox
+        messagebox.showerror(title="texto a binario", message=f"{e}")
