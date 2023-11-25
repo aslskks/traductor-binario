@@ -17,4 +17,5 @@
 &nbsp;2. **Ejecutar:**
 
 &nbsp;&nbsp;python script.py para texto a binario  
-&nbsp;&nbsp;python script1.py para binario a texto
+&nbsp;&nbsp;python script1.py para binario a texto  
+&copy; 2023 aslsks &bull; [MIT License](https://choosealicense.com/licenses/mit/)
